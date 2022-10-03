@@ -285,38 +285,4 @@ Ans-11: #include<stdio.h>
             return 0;
         }
 
-Ans-12: #include<stdio.h>
-
-        int main(){
-        
-            int arr1[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
-            int arr2[3][3] = {{4,5,6},{7,8,9},{1,2,3}};
-            int i,j,sub[3][3];
-            // printf("Enter 1st array elements : ");
-            // for(i=0;i<3;i++){
-            //     for(j=0;j<3;j++){
-            //         scanf("%d",&arr1[i][j]);
-            //     }
-            // }
-            // printf("Enter 2nd array elements : ");
-            // for(i=0;i<3;i++){
-            //     for(j=0;j<3;j++){
-            //         scanf("%d",&arr2[i][j]);
-            //     }
-            // }
-            for(i=0;i<3;i++){
-                for(j=0;j<3;j++){
-                    sub[i][j] = arr1[i][j]-arr2[i][j];
-                }
-            }
-            printf("Subtraction of the arrays is : \n");
-            for(i=0;i<3;i++){
-                printf("\t\t");
-                for(j=0;j<3;j++){
-                    printf("%4d",sub[i][j]);
-                }
-                printf("\n");
-            }
-        
-            return 0;
-        }
+Ans-12: 
